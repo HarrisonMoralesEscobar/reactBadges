@@ -12,7 +12,9 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "bootstrap": "4.3.1",
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.5.0",
+    "bootstrap": "^4.3.1",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-router-dom": "4.3.1",

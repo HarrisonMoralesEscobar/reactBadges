@@ -1,24 +1,25 @@
-.Home {
-  width: 100%;
-  min-height: calc(100vh - 60px);
-  background: url('../../images/stars.svg'), #1B1B25;
-  background-repeat: repeat;
-
-  color: #ffffff;
-
+.conten{
+  background-color: black;
+  height: 650px;
   display: flex;
-  align-items: center;
+
 }
 
-.Home__col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.content__text{
+  width: 40% ;
+  align-self: center;
+  text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-  .Home__col {
-    align-items: flex-start;
-  }
+.conten__start{
+  width: 60%;
+  align-self: center;
+  text-align: center;
+  
 }
+.parrafo{
+  color: white;
+  font-weight: 2px;
+  text-transform: uppercase;
+}
+
