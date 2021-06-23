@@ -1,39 +1,26 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import {Link} from 'react-router-dom'
+import stars from '../images/stars.svg';
+import astro from '../images/astronauts.svg';
 
-import './styles/Home.css';
-import platziconfLogoImage from '../images/platziconf-logo.svg';
-import astronautsImage from '../images/astronauts.svg';
+import './styles/Home.css'
 
-export default class Home extends Component {
-  render() {
-    return (
-      <div className="Home">
-        <div className="container">
-          <div className="row">
-            <div className="Home__col col-12 col-md-4">
-              <img
-                src={platziconfLogoImage}
-                alt="Platzi Conf Logo"
-                className="img-fluid mb-2"
-              />
+export default function Home(){
+  return(
+    
+    <div style={{ backgroundImage: `url(${stars})` }} className="conten">
 
-              <h1>Badge Management System</h1>
-              <Link className="btn btn-primary" to="/badges">
-                Start
-              </Link>
-            </div>
-
-            <div className="Home__col d-none d-md-block col-md-8">
-              <img
-                src={astronautsImage}
-                alt="Astronauts"
-                className="img-fluid p-4"
-              />
-            </div>
-          </div>
-        </div>
+      <div className="content__text">
+        <p className="parrafo">Bienvenidos</p>
+        <Link to="/badges" className="button btn btn-primary">
+          New Start
+        </Link>   
       </div>
-    );
-  }
+
+      <div className="conten__start">
+        <img className="Image_astro" src={astro} alt="logo" />
+      </div>
+
+    </div>
+  );
 }
