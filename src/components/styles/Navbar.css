@@ -5,8 +5,12 @@
 }
 
 .Navbar__brand {
+<<<<<<< HEAD
   color: white;
 
+=======
+  color: #ffffff;
+>>>>>>> e78f17f0e6b96378620087cbbe4c0b198a05da9c
   display: flex;
   align-items: center;
 }

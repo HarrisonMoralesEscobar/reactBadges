@@ -28,3 +28,8 @@
   justify-content: flex-end;
   margin-bottom: 1rem;
 }
+
+.image__BadgeList{
+  width: 200px;
+  height: 150px;
+}

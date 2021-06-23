@@ -1,0 +1,27 @@
+.contenedor{
+  background-color: #182633;
+  height: 700px;
+  display: flex;
+}
+
+.con__text{
+  color: black;
+  align-self: center;
+  width: 40%;
+  text-align: end;
+}
+
+.parrafo_NotFound{
+  color: black;
+  text-transform: none;
+}
+
+.img__NotFound{
+  width: 620px;
+  height: 450px;
+  align-self: center
+}
+
+.button{
+  margin-top: 10px;
+}
